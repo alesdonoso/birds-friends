@@ -40,6 +40,7 @@ const ContactPage = ({ data }, location) => {
           </a>
           .
         </p>
+        <h4>Muchas gracias!</h4>
       </div>
     </Layout>
   )
