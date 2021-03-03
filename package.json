@@ -8,6 +8,7 @@
     "url": "https://github.com/ImedAdel/gatsby-london/issues"
   },
   "dependencies": {
+    "eslint": "^7.21.0",
     "gatsby": "^2.4.2",
     "gatsby-image": "^2.0.41",
     "gatsby-plugin-feed": "^2.2.0",
@@ -16,6 +17,7 @@
     "gatsby-plugin-netlify": "^2.0.17",
     "gatsby-plugin-offline": "^2.1.0",
     "gatsby-plugin-postcss": "^2.0.7",
+    "gatsby-plugin-prettier-eslint": "^1.0.4",
     "gatsby-plugin-purgecss": "^3.1.1",
     "gatsby-plugin-react-helmet": "^3.0.12",
     "gatsby-plugin-sharp": "^2.0.36",
@@ -43,7 +45,7 @@
     "postcss-color-function": "^4.1.0",
     "postcss-custom-properties": "^8.0.10",
     "postcss-easy-import": "^3.0.0",
-    "prettier": "^1.17.0",
+    "prettier": "^1.19.1",
     "pretty-quick": "^1.10.0"
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
@@ -66,7 +68,9 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "surge-build": "export PUBLIC_URL=https://birdsfriends.org && npm run build",
+    "surge-deploy": "cd build && cp index.html 200.html && echo birdsfriends.org > CNAME && surge; cd -"
   },
   "husky": {
     "hooks": {
