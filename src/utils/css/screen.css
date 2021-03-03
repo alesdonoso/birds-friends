@@ -52,7 +52,7 @@ body {
 
 .site-wrapper {
     padding: 3vw;
-    min-height: 80vh;
+    min-height: 100vh;
 }
 @media (max-width: 850px) {
     .site-wrapper {
@@ -120,8 +120,6 @@ body {
 }
 
 .site-foot {
-    position: absolute;
-    bottom: 0;
     margin: 3vw 0 1vw;
     text-align: center;
     color: color(var(--color-border) l(-20%));
