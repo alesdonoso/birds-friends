@@ -5,5 +5,7 @@ module.exports = {
   url: 'https://birdsfriends.org', // Domain of your site without prefix!
   prefix: '/',
   author: 'Alejandro Donoso',
-  twitter: 'alesdonoso'
+  twitter: 'Birds_Friends_', // to delete
+  facebook: 'asociacionbirdsfriends', 
+  instagram: 'asociacion.birds_friends_'
 }
