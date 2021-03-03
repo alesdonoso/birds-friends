@@ -42,34 +42,19 @@ const Layout = props => {
               {title}
             </Link>
           </div>
-          <div className="site-head-right">
-            <div className="social-links">
-              <a
-                href="https://www.facebook.com"
-                title="Facebook"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Adoptar
-              </a>
-              <a
-                href="https://twitter.com"
-                title="Twitter"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Servicios
-              </a>
-              <Link
-                to={`/rss.xml`}
-                title="RSS"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Contacta
-              </Link>
-            </div>
-          </div>
+          <nav id="swup" class="site-head-left">
+            <ul className="nav" role="menu">
+              <li className="nav-home" role="menuitem">
+                <Link to={`/`}>Adoptar</Link>
+              </li>
+              <li className="nav-about" role="menuitem">
+                <Link to={`/about`}>Servicios</Link>
+              </li> 
+              <li className="nav-elements" role="menuitem">
+                <Link to={`/elements`}>Contacto</Link>
+              </li>
+            </ul>
+          </nav>
         </div>
       </header>
       <main id="site-main" className="site-main">

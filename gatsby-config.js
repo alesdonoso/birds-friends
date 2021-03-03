@@ -9,6 +9,8 @@ module.exports = {
     siteUrl: urljoin(siteConfig.url, siteConfig.prefix),
     social: {
       twitter: siteConfig.twitter,
+      facebook: siteConfig.facebook,
+      instagram: siteConfig.instagram,
     },
   },
   plugins: [
@@ -92,7 +94,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/favicon-32x32.png`,
       },
     },
     `gatsby-plugin-netlify`,
