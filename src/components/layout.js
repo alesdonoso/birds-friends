@@ -27,13 +27,13 @@ const Layout = props => {
           <nav id="swup" class="site-head-left">
             <ul className="nav" role="menu">
               <li className="nav-home nav-current" role="menuitem">
-                <Link to={`/`}>Home</Link>
+                <Link to={`/`}>Inicio</Link>
               </li>
               <li className="nav-about" role="menuitem">
-                <Link to={`/about`}>About</Link>
-              </li>
+                <Link to={`/about`}>La Asociación</Link>
+              </li> 
               <li className="nav-elements" role="menuitem">
-                <Link to={`/elements`}>Elements</Link>
+                <Link to={`/elements`}>Colabora</Link>
               </li>
             </ul>
           </nav>
@@ -50,7 +50,7 @@ const Layout = props => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Facebook
+                Adoptar
               </a>
               <a
                 href="https://twitter.com"
@@ -58,7 +58,7 @@ const Layout = props => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Twitter
+                Servicios
               </a>
               <Link
                 to={`/rss.xml`}
@@ -66,7 +66,7 @@ const Layout = props => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                RSS
+                Contacta
               </Link>
             </div>
           </div>

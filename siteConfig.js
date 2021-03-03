@@ -1,9 +1,9 @@
 module.exports = {
-  name: 'London',
-  shortName: 'London',
-  description: 'A bold, minimal theme for Gatsby, focused on clean typography & beautiful imagery',
-  url: 'https://gatsby-london.netlify.com', // Domain of your site without prefix!
+  name: 'Birds Friends',
+  shortName: 'Birds Friends',
+  description: 'Asociación Protectora de Aves',
+  url: 'https://birdsfriends.org', // Domain of your site without prefix!
   prefix: '/',
-  author: 'Imed Adel',
-  twitter: 'Imed_Adel'
+  author: 'Alejandro Donoso',
+  twitter: 'alesdonoso'
 }
