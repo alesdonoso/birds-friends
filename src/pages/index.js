@@ -34,12 +34,13 @@ const BlogIndex = ({ data }, location) => {
             otras especies de animales, como los perros o los gatos y sin
             embargo siendo uno de los más maltratados, tanto por la industria
             cárnica, como por el comercio, la caza, el abandono, la pérdida de
-            su hábitat, etc. 
-            
-            <br/><br/>Debido al bajo interés que presenta su protección y
-            las pocas asociaciones que velan por sus derechos, nace: "Birds
-            Friends". "Birds Friends" sólo es ese granito de arena, que con la
-            unión de varias personas, puede hacer una gran montaña.
+            su hábitat, etc.
+          </p>
+          <p className="page-head-subtitle">
+            Debido al bajo interés que presenta su protección y las pocas
+            asociaciones que velan por sus derechos, nace: "Birds Friends".
+            "Birds Friends" sólo es ese granito de arena, que con la unión de
+            varias personas, puede hacer una gran montaña.
           </p>
         </header>
       )}
