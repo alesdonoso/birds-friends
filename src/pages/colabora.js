@@ -1,6 +1,5 @@
 import React from "react"
 import { graphql, StaticQuery } from "gatsby"
-import Img from "gatsby-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -8,7 +7,7 @@ import SEO from "../components/seo"
 import "../utils/normalize.css"
 import "../utils/css/screen.css"
 
-const AsociacionPage = ({ data }, location) => {
+const ColaboraPage = ({ data }, location) => {
   const siteTitle = data.site.siteMetadata.title
 
   return (
@@ -18,15 +17,8 @@ const AsociacionPage = ({ data }, location) => {
       <article className="post-content page-template no-image">
         <div className="post-content-body">
           <h2>
-            Conoce la historia, valores, misión y visión de la Asociación Birds Friends.
+            Existen diversos modos de colaborar. ¡Ayúdanos a crear un mundo mejor!
           </h2>
-          <figure className="kg-card kg-image-card kg-width-full">
-            <Img
-              fluid={data.benchAccounting.childImageSharp.fluid}
-              className="kg-image"
-            />
-            <figcaption>Large imagery is at the heart of this theme</figcaption>
-          </figure>
           <h3 id="historia">Historia</h3>
           <p>
             London comes with photo-centric main layout best suited to
@@ -98,7 +90,7 @@ export default props => (
   <StaticQuery
     query={indexQuery}
     render={data => (
-      <AsociacionPage location={props.location} data={data} {...props} />
+      <ColaboraPage location={props.location} data={data} {...props} />
     )}
   />
 )
