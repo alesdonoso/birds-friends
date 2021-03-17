@@ -25,7 +25,6 @@ const AsociacionPage = ({ data }, location) => {
               fluid={data.benchAccounting.childImageSharp.fluid}
               className="kg-image"
             />
-            <figcaption>Large imagery is at the heart of this theme</figcaption>
           </figure>
           <h3 id="historia">Historia</h3>
           <p>
