@@ -4,7 +4,7 @@ module.exports = {
   description: 'Asociación Protectora de Aves',
   url: 'https://birdsfriends.org', // Domain of your site without prefix!
   prefix: '/',
-  author: 'Alejandro Donoso',
+  author: 'Birds Friends',
   twitter: 'Birds_Friends_', // to delete
   facebook: 'asociacionbirdsfriends', 
   instagram: 'asociacion.birds_friends_'

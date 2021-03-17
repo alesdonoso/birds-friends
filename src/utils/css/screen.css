@@ -119,6 +119,19 @@ body {
     }
 }
 
+.page-head-subtitle {
+    margin: 0 0 1.6vw;
+    color: color(var(--color-border) l(-20%));
+    font-size: 1.3em;
+    line-height: 1.35em;
+}
+
+@media (max-width: 500px) {
+    .page-head-subtitle {
+        font-size: 1.2em;
+    }
+}
+
 .site-foot {
     margin: 3vw 0 1vw;
     text-align: center;
@@ -176,6 +189,7 @@ body {
     padding: 10px 12px;
     color: var(--color-base);
     font-weight: 600;
+    font-size: 1.2em;
     opacity: 0.4;
 }
 

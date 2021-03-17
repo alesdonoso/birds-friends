@@ -26,6 +26,21 @@ const BlogIndex = ({ data }, location) => {
           <h2 className="page-head-title">
             {data.site.siteMetadata.description}
           </h2>
+          <br />
+          <p className="page-head-subtitle">
+            Somos una asociación sin ánimo de lucro, dedicada al proteccionismo
+            animal y en especial a las aves, una de las especies, que en la
+            actualidad, menos empatización y respeto recibe, en comparación con
+            otras especies de animales, como los perros o los gatos y sin
+            embargo siendo uno de los más maltratados, tanto por la industria
+            cárnica, como por el comercio, la caza, el abandono, la pérdida de
+            su hábitat, etc. 
+            
+            <br/><br/>Debido al bajo interés que presenta su protección y
+            las pocas asociaciones que velan por sus derechos, nace: "Birds
+            Friends". "Birds Friends" sólo es ese granito de arena, que con la
+            unión de varias personas, puede hacer una gran montaña.
+          </p>
         </header>
       )}
       <div className="post-feed">
