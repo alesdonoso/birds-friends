@@ -15,30 +15,26 @@ const ColaboraPage = ({ data }, location) => {
     <Layout title={siteTitle}>
       <SEO
         title="Asociacion"
-        keywords={[`aves`, `asociacion`, `ong`, `barcelona`]}
+        keywords={[`aves`, `asociacion`, `protectora`, `barcelona`]}
       />
 
       <article className="post-content page-template no-image">
         <div className="post-content-body">
           <h2>
-            Existen diversos modos de colaborar. ¡Ayúdanos a crear un mundo
+            Puedes colaborar con nosotros de muchas formas. ¡Ayúdanos a crear un mundo
             mejor!
           </h2>
           <div className="colaborar-cards">
+            <Link className="card" to="/darkness">
+              Prueba 1
+            </Link>
             <Link className="card" to="/about">
               Prueba 1
             </Link>
-          </div>
-          <div className="colaborar-cards">
             <Link className="card" to="/about">
               Prueba 1
             </Link>
-          </div>
-          <div className="colaborar-cards">
-            <Link className="card" to="/about">
-              Prueba 1
-            </Link>
-          </div>
+            </div>
         </div>
       </article>
     </Layout>
