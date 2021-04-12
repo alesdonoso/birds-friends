@@ -3,6 +3,7 @@ import { graphql, StaticQuery } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { Link } from "gatsby"
 
 import "../utils/normalize.css"
 import "../utils/css/screen.css"
@@ -12,55 +13,28 @@ const ColaboraPage = ({ data }, location) => {
 
   return (
     <Layout title={siteTitle}>
-      <SEO title="Asociacion" keywords={[`aves`, `asociacion`, `ong`, `barcelona`]} />
+      <SEO
+        title="Asociacion"
+        keywords={[`aves`, `asociacion`, `protectora`, `barcelona`]}
+      />
 
       <article className="post-content page-template no-image">
         <div className="post-content-body">
           <h2>
-            Existen diversos modos de colaborar. ¡Ayúdanos a crear un mundo mejor!
+            Puedes colaborar con nosotros de muchas formas. ¡Ayúdanos a crear un
+            mundo mejor!
           </h2>
-          <h3 id="historia">Historia</h3>
-          <p>
-            London comes with photo-centric main layout best suited to
-            photography, graphics portfolios and other image-heavy uses.
-          </p>
-          <p>
-            Both post and page templates are light and minimal, with all the
-            focus on the content while the design of the theme gets out of the
-            way. Beneath the hood, London enjoys the full power of the{" "}
-            <a href="https://docs.ghost.org/api/handlebars-themes/">
-              Ghost Handlebars Theme API
-            </a>{" "}
-            to provide limitless customisation options and dynamic styles.
-          </p>
-          <h3 id="mision-vision">Misión y Visión</h3>
-          <p>
-            London comes with photo-centric main layout best suited to
-            photography, graphics portfolios and other image-heavy uses.
-          </p>
-          <p>
-            Both post and page templates are light and minimal, with all the
-            focus on the content while the design of the theme gets out of the
-            way. Beneath the hood, London enjoys the full power of the{" "}
-            <a href="https://docs.ghost.org/api/handlebars-themes/">
-              Ghost Handlebars Theme API
-            </a>{" "}
-            to provide limitless customisation options and dynamic styles.
-          </p>
-          <h3 id="asociacion">La Asociación</h3>
-          <p>
-            London comes with photo-centric main layout best suited to
-            photography, graphics portfolios and other image-heavy uses.
-          </p>
-          <p>
-            Both post and page templates are light and minimal, with all the
-            focus on the content while the design of the theme gets out of the
-            way. Beneath the hood, London enjoys the full power of the{" "}
-            <a href="https://docs.ghost.org/api/handlebars-themes/">
-              Ghost Handlebars Theme API
-            </a>{" "}
-            to provide limitless customisation options and dynamic styles.
-          </p>
+          <div className="colaborar-cards">
+            <Link className="card" to="/darkness">
+              Prueba 1
+            </Link>
+            <Link className="card" to="/about">
+              Prueba 1
+            </Link>
+            <Link className="card" to="/about">
+              Prueba 1
+            </Link>
+          </div>
         </div>
       </article>
     </Layout>
