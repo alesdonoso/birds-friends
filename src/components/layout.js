@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import Footer from "./Footer"
 
 const Layout = props => {
   const { title, children } = props
@@ -31,7 +32,7 @@ const Layout = props => {
               </li>
               <li className="nav-about" role="menuitem">
                 <Link to={`/asociacion`}>La Asociación</Link>
-              </li> 
+              </li>
               <li className="nav-elements" role="menuitem">
                 <Link to={`/colabora`}>Colabora</Link>
               </li>
@@ -49,7 +50,7 @@ const Layout = props => {
               </li>
               <li className="nav-about" role="menuitem">
                 <Link to={`/about`}>Servicios</Link>
-              </li> 
+              </li>
               <li className="nav-elements" role="menuitem">
                 <Link to={`/contact`}>Contacto</Link>
               </li>
@@ -62,9 +63,7 @@ const Layout = props => {
           {children}
         </div>
       </main>
-      <footer className="site-foot">
-        &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link> &mdash;
-      </footer>
+      <Footer title={title} />
     </div>
   )
 }
