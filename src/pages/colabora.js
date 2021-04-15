@@ -21,8 +21,8 @@ const ColaboraPage = ({ data }, location) => {
       <article className="post-content page-template no-image">
         <div className="post-content-body">
           <h2>
-            Puedes colaborar con nosotros de muchas formas. ¡Ayúdanos a crear un mundo
-            mejor!
+            Puedes colaborar con nosotros de muchas formas. ¡Ayúdanos a crear un
+            mundo mejor!
           </h2>
           <div className="colaborar-cards">
             <Link className="card" to="/darkness">
@@ -34,7 +34,7 @@ const ColaboraPage = ({ data }, location) => {
             <Link className="card" to="/about">
               Prueba 1
             </Link>
-            </div>
+          </div>
         </div>
       </article>
     </Layout>
